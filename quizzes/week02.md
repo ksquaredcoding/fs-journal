@@ -13,7 +13,11 @@ A section of logic that is performed when called
 **3.** What are the `SOLID` principles?
 <!-- enter you answer in the space below -->
 ```
-
+S- Single-Responsibility Principle
+O- Open-Closed Principle
+L- Liskov Substitution Principle
+I- Interface Segregation Principle
+D- Dependency Inversion Principle
 ```
 **4.** Given this array: 
 ```js
@@ -52,21 +56,31 @@ i++
 **8.** What does the `DOM` acronym stand for? Which file is first accessed to render the `DOM`?
 <!-- enter you answer in the space below -->
 ```
-Document Object Model
+Document Object Model, HTML or index.html
 ```
 
 **9.** What are the `9` ECMAScript types as defined by MDN?
 <!-- enter you answer in the space below -->
 ```
-
+1. Primitive Values
+2. Boolean
+3. Null
+4. Undefined
+5. Number
+6. BigInt
+7. String
+8. Symbol
+9. Objects
 ```
 **10.** When it comes to functions or methods, what is the difference between a `parameter` and an `argument`?
 <!-- enter you answer in the space below -->
 ```
-
+A parameter is the variables you set the function up to take in and when defining a function. Arguments are the values received from each parameter when the function is executed or invoked.
 ```
 **11.** What is the difference between a `primitive` value and a `reference` value?
 <!-- enter you answer in the space below -->
 ```
+A Primitive is set as this is the single value of what you are defining: let x = 7
 
+A Reference is one where there are multiple values contained with in an object (or an array which is just a type of object) const myArr = [3, 7]
 ```
