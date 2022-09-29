@@ -98,3 +98,13 @@ onMonunted(() => {
 })
 Once Vue is finished loading, do the thing
 Also onBeforeMount for before vue is done loading
+
+const route = useRoute()
+route.params.id
+AppState.projects = [] emptying out arrays of data to prevent flashing of old data.
+
+watchEffect(() => fn) fancy on event
+=> { editable.value = { ...AppState.account } })
+Breaks the reference to the original object
+
+Mutable data bad -- Immutable data good!!!!
