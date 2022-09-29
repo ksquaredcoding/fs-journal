@@ -91,3 +91,10 @@ Put modal or other offscreen in App.vue
 ? is the Elvis operator. If Elvis is in the building, go ahead. If not, then Elvis has left the building, essentially do nothing.
 
 If an object is possibly null, then use movie?.title to say to wait until you have the object. Only works in advanced frontend frameworks like Vue, not vanilla js.
+
+<!-- REVIEW lifestyle hooks -->
+onMonunted(() => {
+  getCars()
+})
+Once Vue is finished loading, do the thing
+Also onBeforeMount for before vue is done loading
