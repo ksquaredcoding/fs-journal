@@ -1,1 +1,1 @@
-# MVC
+Initialize fullstack vue, don't select client or server. Click choose folder. Or initialize during bcw create.
