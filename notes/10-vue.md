@@ -108,3 +108,7 @@ watchEffect(() => fn) fancy on event
 Breaks the reference to the original object
 
 Mutable data bad -- Immutable data good!!!!
+
+@keyup for when a new key press is entered for a search bar to have it be an active search. (use with object or if it is connected to something else.)
+
+editables don't have to be objects. Can be an emptry string. (Use v-model for same page search with already gotten data)
